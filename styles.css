@@ -141,6 +141,12 @@ nav ul li a.cta-button:hover {
     color: #333; /* Ensure the text stays black when hovered */
 }
 
+/* Force dropbtn to stay black on hover */
+.dropdown:hover .dropbtn {
+    background-color: #add8e6; /* Light blue background on hover */
+    color: #333 !important; /* Force the text to stay black */
+}
+
 /* Content Area */
 main {
     padding: 20px;
