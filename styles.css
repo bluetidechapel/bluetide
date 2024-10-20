@@ -128,8 +128,17 @@ nav ul li a.cta-button:hover {
 }
 
 /* Change the dropdown button style when hovered */
+
+.dropdown .dropbtn {
+    color: white; /* Ensure the initial color is consistent with other links */
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
 .dropdown:hover .dropbtn {
-  color: #add8e6;
+    background-color: #add8e6; /* Light blue like other hover links */
+    color: #333; /* Ensure the text stays black when hovered */
 }
 
 /* Content Area */
