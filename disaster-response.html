@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beach Community - Blue Tide Chapel</title>
+    <title>Disaster Response - Blue Tide Chapel</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
@@ -14,25 +14,25 @@
         </div>
     </header>
 
-<div id="navbar-placeholder"></div>
+    <div id="navbar-placeholder"></div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    fetch('navbar.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('navbar-placeholder').innerHTML = data;
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+          });
       });
-  });
-</script>
+    </script>
 
 
     <main>
         <section class="content">
-            <h2>Fostering a Global Community</h2>
-            <p>Welcome to the serene beaches of Blue Tide Chapel. Here, we gather to find peace, reflect, and connect with one another in a calming seaside setting. While our chapel exists online, we invite you to envision the tranquil atmosphere of the beach as a reminder of the peace and unity we aim to create together.</p>
-            <img src="./images/beach.png" alt="Beach Community" class="featured-image">
-            <p>Our mission is to create a community where everyone feels welcomed and finds solace. Whether it's participating in virtual meditations or sharing reflections with others, we are here to help you experience the beauty and tranquility that this beach symbolizes.</p>
+            <h2>Responding to Disasters with Compassion</h2>
+            <p>Blue Tide Chapel stands in solidarity with those impacted by natural and man-made disasters. Our mission is to provide support, comfort, and resources to communities in crisis.</p>
+            <img src="./images/disaster.png" alt="Disaster Response" class="featured-image">
+            <p>We offer various relief programs to help those affected by disasters, ensuring they receive the necessary assistance during challenging times.</p>
         </section>
     </main>
     <footer>
