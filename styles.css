@@ -96,29 +96,30 @@ nav ul li a.cta-button:hover {
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 180px;
-  padding: 10px 0;  /* Add padding for spacing between items */
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-  z-index: 1000;  /* Ensure it shows on top of other elements */
-  top: 100%;  /* Ensure it shows below the parent */
-  left: 0;   /* Align it to the left side of the parent */
-  box-sizing: border-box;
-  border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: #2DB3DE; /* Match footer background color */
+    min-width: 180px;
+    padding: 10px 0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 /* Dropdown links */
+
 .dropdown-content a {
-  color: #333;
-  padding: 10px 16px;
-  text-decoration: none;
-  display: block; /* Each link on a new line */
+    color: white; /* Match footer text color */
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+    background-color: #2495bf; /* Darker shade on hover, similar to footer's hover effect */
 }
 
 /* Show the dropdown content on hover */
