@@ -175,13 +175,14 @@ main {
 
 /* Unordered List Styling */
 ul {
-    padding-left: 40px; /* Adds appropriate left padding */
-    list-style-position: outside; /* Ensures bullets are outside the text block */
-    text-align: left; /* Left-align the bullet points */
+    padding-left: 20px; /* Adjust padding to match the paragraph indent */
+    margin-left: 0; /* Ensure no extra margin is added */
+    list-style-position: outside; /* Keep bullets outside */
+    text-align: left; /* Ensure the text is left-aligned */
 }
 
 li {
-    margin-left: 0; /* Ensure no extra margin is added to the list items */
+    margin-left: 0; /* Align the list items with the paragraphs */
 }
 
 /* Image Gallery */
