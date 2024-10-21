@@ -176,14 +176,15 @@ main {
 /* Unordered List Styling */
 
 ul {
-    padding-left: 0; /* Remove default padding */
-    list-style-position: inside; /* Align bullets with the text */
-    text-align: left; /* Ensure bullet list is left-aligned */
+    padding-left: 40px; /* Adds appropriate left padding */
+    list-style-position: outside; /* Ensures bullets are outside the text block */
+    text-align: left; /* Left-align the bullet points */
 }
 
 li {
-    margin-left: 20px; /* Add a small margin for alignment */
+    margin-left: 0; /* Ensure no extra margin is added to the list items */
 }
+
 
 /* Image Gallery */
 .images {
