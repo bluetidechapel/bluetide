@@ -1,3 +1,4 @@
+
 /* General Reset and Enhancements */
 * {
     box-sizing: border-box;
@@ -128,7 +129,6 @@ nav ul li a.cta-button:hover {
 }
 
 /* Change the dropdown button style when hovered */
-
 .dropdown .dropbtn {
     color: white; /* Ensure the initial color is consistent with other links */
     padding: 10px 15px;
@@ -171,6 +171,16 @@ main {
     max-width: 800px;
     margin: 0 auto 20px;
     text-align: left;
+}
+
+/* Unordered List Styling */
+ul {
+    padding-left: 0; /* Remove default padding */
+    list-style-position: inside; /* Align bullets with the text */
+}
+
+li {
+    margin-left: 20px; /* Add a small margin for alignment */
 }
 
 /* Image Gallery */
