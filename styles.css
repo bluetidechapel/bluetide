@@ -174,7 +174,6 @@ main {
 }
 
 /* Unordered List Styling */
-
 ul {
     padding-left: 40px; /* Adds appropriate left padding */
     list-style-position: outside; /* Ensures bullets are outside the text block */
@@ -184,7 +183,6 @@ ul {
 li {
     margin-left: 0; /* Ensure no extra margin is added to the list items */
 }
-
 
 /* Image Gallery */
 .images {
@@ -234,7 +232,7 @@ li {
     transition: color 0.3s ease;
 }
 
-.social-media a:hover {
+social-media a:hover {
     color: #add8e6;
 }
 
