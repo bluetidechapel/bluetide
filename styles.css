@@ -174,9 +174,11 @@ main {
 }
 
 /* Unordered List Styling */
+
 ul {
     padding-left: 0; /* Remove default padding */
     list-style-position: inside; /* Align bullets with the text */
+    text-align: left; /* Ensure bullet list is left-aligned */
 }
 
 li {
