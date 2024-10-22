@@ -280,7 +280,7 @@ footer a:hover {
 
 @media (max-width: 480px) {
     .header-text h1 {
-        font-size: 1.2em;
+        font-size: 1.2em; /* Font size adjustment for smaller screens */
     }
 
     nav ul {
@@ -293,10 +293,23 @@ footer a:hover {
     }
 
     .image-holder img {
-        width: 100%;
+        width: 100%; /* Full-width images for small screens */
+    }
+
+    .featured-image {
+        width: 100%; /* Ensures full width for the featured images on mobile */
     }
 
     .social-media a img {
         width: 25px; /* Further reduce icon size for mobile */
+    }
+
+    /* Mobile Tap Area Enhancements */
+    nav ul li a {
+        padding: 15px; /* Increase tap area for better mobile usability */
+    }
+
+    footer a {
+        padding: 15px; /* Ensure clickable areas in the footer are larger */
     }
 }
