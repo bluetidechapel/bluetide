@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Response - Blue Tide Chapel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <img src="./images/banner.png" alt="Blue Tide Chapel Banner">
+        </div>
+    </header>
+
+    <div id="navbar-placeholder"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+          });
+      });
+    </script>
+
+    <main>
+        <section class="content">
+            <h2>Responding to Disasters with Compassion</h2>
+            <p>Blue Tide Chapel stands in solidarity with those impacted by natural and man-made disasters. Our mission is rooted in our faith, driven by a commitment to provide Christ-centered support, comfort, and resources to communities in crisis. We are called to offer not only physical aid but also spiritual nourishment during the most challenging times, reflecting God’s love through our actions.</p>
+
+            <img src="./images/disaster.png" alt="Disaster Response" class="featured-image">
+
+            
+            <p>In addition to our chaplaincy services, Blue Tide Chapel is proud to have a highly skilled and active Disaster Response Team. This team is dedicated to offering comprehensive on-the-ground support during times of crisis, with services guided by our faith in Christ, including:</p>
+
+            <p><strong>Nursing Care and Triage Support:</strong> Registered nurses with emergency training provide critical nursing care, triage, and medical support, reflecting God’s care through compassionate healthcare.</p>
+            <p><strong>FAA Licensed Drone Surveying:</strong> FAA-licensed commercial drone pilots conduct aerial surveys of disaster-affected areas to assess damage, locate individuals in need, and guide recovery efforts.</p>
+            <p><strong>First Aid Capabilities:</strong> The team offers immediate first aid and basic medical care in disaster zones, addressing physical needs as an expression of faith.</p>
+            <p><strong>Spiritual Counseling:</strong> The team provides prayer, scriptural guidance, and pastoral support to help individuals find peace, strength, and hope through their faith.</p>
+            <p><strong>Business and Homeowner Recovery Assistance:</strong> Assistance is provided for clean-up efforts, debris removal, and restoration of homes and properties, along with guidance on recovery plans and coordination with local services. Spiritual and emotional support is also offered during the rebuilding process.</p>
+
+            <p>Whether responding to natural disasters, emergencies, or other large-scale incidents, our team of faith-driven professionals and volunteers is prepared to deliver compassionate care with a focus on serving Christ through service to others. We are committed to bringing the hope and healing of Christ to those in need, reinforcing our dedication to ministry, service, and outreach.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://x.com/bluetidechapel" target="_blank"><img src="images/x.png" alt="X"></a>
+            <a href="https://www.instagram.com/bluetidechapel" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@bluetidechapel" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="https://www.facebook.com/bluetidechapel" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.pinterest.com/bluetidechapel/" target="_blank"><img src="images/pinterest.png" alt="Pinterest"></a>
+            <a href="https://podcasters.spotify.com/pod/show/bluetidechapel" target="_blank"><img src="images/spotify.png" alt="Spotify"></a>
+        </div>
+        <p>Contact us at <a href="mailto:pastor@bluetidechapel.com">pastor@bluetidechapel.com</a></p>
+        <p>&copy; 2024 Blue Tide Chapel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
