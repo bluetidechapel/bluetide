@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="minify.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Tide Chapel</title>
+    <meta name="description" content="Blue Tide Chapel offers faith-based disaster response, chaplain services, and spiritual support to communities in crisis.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <div class="header-image">
+        <img src="./images/banner.png" alt="Blue Tide Chapel Banner" loading="lazy">
+      </div>
+    </header>
+
+    <div id="navbar-placeholder"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+          });
+      });
+    </script>
+
+
+
+    <main>
+      <section class="content">
+        <h2>Welcome to Blue Tide Chapel</h2>
+        <p>Find peace and community from anywhere. Join our online gatherings, virtual meditations, and moments of reflection that bring solace and connection, wherever you are.</p>
+        <p>Explore our virtual chapel and experience the serenity of peaceful moments by the blue tides from wherever you are.</p>
+      </section>
+      <section class="images">
+        <div class="image-holder">
+          <a href="beach.html">
+            <img src="./images/beach.png" alt="Community" loading="lazy">
+          </a>
+          <p>Fostering a global community</p>
+        </div>
+        <div class="image-holder">
+          <a href="meditation.html">
+            <img src="./images/meditation.png" alt="Meditation" loading="lazy">
+          </a>
+          <p>Christian prayers for peace</p>
+        </div>
+        <div class="image-holder">
+          <a href="reflection.html">
+            <img src="./images/guidinglight.png" alt="Reflection" loading="lazy">
+          </a>
+          <p>Reflection and renewal</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="social-media">
+        <a href="https://x.com/bluetidechapel" target="_blank">
+          <img src="images/x.png" alt="X">
+        </a>
+        <a href="https://www.instagram.com/bluetidechapel" target="_blank">
+          <img src="images/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/@bluetidechapel" target="_blank">
+          <img src="images/youtube.png" alt="YouTube">
+        </a>
+        <a href="https://www.facebook.com/bluetidechapel" target="_blank">
+          <img src="images/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.pinterest.com/bluetidechapel/" target="_blank">
+          <img src="images/pinterest.png" alt="Pinterest">
+        </a>
+        <a href="https://podcasters.spotify.com/pod/show/bluetidechapel" target="_blank">
+          <img src="images/spotify.png" alt="Spotify">
+        </a>
+      </div>
+      <p>Contact us at <a href="mailto:pastor@bluetidechapel.com">pastor@bluetidechapel.com</a>
+      </p>
+      <p>&copy; 2024 Blue Tide Chapel. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
